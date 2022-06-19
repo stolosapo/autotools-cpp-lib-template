@@ -9,9 +9,8 @@ A Template Repository for C++ Libraries using Autotools
 <autotoolscpplibtemplate>    = the library name, to be installed
 ```
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/<repo-owner>/<autotools-cpp-lib-template>)
+![Build](https://github.com/<repo-owner>/<autotools-cpp-lib-template>/actions/workflows/makefile.yml/badge.svg) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/<repo-owner>/<autotools-cpp-lib-template>)
 
-![Build](https://github.com/<repo-owner>/<autotools-cpp-lib-template>/actions/workflows/makefile.yml/badge.svg) 
 
 ### Prepare compilation
 ```bash
@@ -43,4 +42,4 @@ git clean -xdf
 
 ### Use Library
 If everything installed fine then pass `-l<autotoolscpplibtemplate>` parameter in linker, when build your application.
-Then use it in your app like in `example/`.
+Then use it in your app like in `examples/`.
